@@ -1,24 +1,24 @@
 const handler = async (m, {conn, usedPrefix}) => {
   const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
   const document = doc[Math.floor(Math.random() * doc.length)];
-  const text = `*—◉ 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝙼𝙸 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 𝙴𝚂 wa.me/525625060788*`.trim();
+  const text = `*—◉ 𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝙼𝙸 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 𝙴𝚂 wa.me/527299350963*`.trim();
   const buttonMessage= {
-    'document': {url: `https://github.com/anthony2303/capibot.git`},
+    'document': {url: `https://github.com/MonovanShop/Bugs-Bunny.git`},
     'mimetype': ` `,
-    'fileName': `「  Alquila CapiPremium 」`,
+    'fileName': `「  Alquila Bugs Bunny 」`,
     'fileLength': 99999999999999,
     'pageCount': 200,
     'contextInfo': {
       'forwardingScore': 200,
       'isForwarded': true,
       'externalAdReply': {
-        'mediaUrl': 'https://github.com/anthony2303/capibot.git',
+        'mediaUrl': 'https://github.com/MonovanShop/Bugs-Bunny.git',
         'mediaType': 2,
         'previewType': 'url',
         'title': 'Eʟ Mᴇᴊᴏʀ Bᴏᴛ ᴅᴇ Wʜᴀᴛsᴀᴘᴘ⁩',
         'body': wm,
         'thumbnail': imagen1,
-        'sourceUrl': 'wa.me/525625060788'}},
+        'sourceUrl': 'wa.me/527299350963'}},
     'caption': text,
     'footer': wm,
     // 'buttons':[
