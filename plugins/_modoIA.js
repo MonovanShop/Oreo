@@ -14,7 +14,7 @@ handler.before = async (m) => {
         const namedem = `${name || 'Sin definir'}`
         const sytm = await fetch(`https://raw.githubusercontent.com/anthony2303/capibot/master/src/JSON/chatgpt_indicciones.txt`).then(v => v.text());
         const sistema1 = sytm.replace('@name', namedem)
-        const sistema2 = 'Tu seras CapiBot PREMIUM, un bot de WhatsApp creado por Anthony Ventas';
+        const sistema2 = 'Tu seras Bugs Bunny, un bot de WhatsApp creado por Bugs Bunny';
         try {
         async function getOpenAIChatCompletion(texto) {
         const openaiAPIKey = global.openai_key;
