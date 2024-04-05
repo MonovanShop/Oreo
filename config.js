@@ -46,9 +46,9 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.aÃ±o = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nCapibot Premium`;
-global.gt = 'Capibot Premium';
-global.mysticbot = 'CapiBot Premium';
+global.wm2 = `${dia} ${fecha}\nBugs Bunny`;
+global.gt = 'Bugs Bunny';
+global.mysticbot = 'Bugs Bunny';
 global.md = 'wa.me/5217299350963';
 global.mysticbot = 'wa.me/5217299350963';
 global.waitt = '*[ â³ ] Cargando...*';
