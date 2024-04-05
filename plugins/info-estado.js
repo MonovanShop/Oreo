@@ -22,11 +22,11 @@ const handler = async (m, { conn, usedPrefix }) => {
   const old = performance.now();
   const neww = performance.now();
   const rtime = (neww - old).toFixed(7);
-  const wm = 'The Mystic Bot';
+  const wm = 'Bugs Bunny';
   const info = ` _*< INFO - ESTADO />*_
 
- ▢ *Prop.:* Anthony Mendivil
- ▢ *WA:* +525625060788
+ ▢ *Prop.:* Bugs Bunny
+ ▢ *WA:* +527299350963
 
  ▢ *Ping:* ${rtime}
  ▢ *Uptime:* ${uptime}
