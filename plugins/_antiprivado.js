@@ -8,7 +8,7 @@ export async function before(m, {conn, isAdmin, isBotAdmin, isOwner, isROwner}) 
   const chat = global.db.data.chats[m.chat];
   const bot = global.db.data.settings[this.user.jid] || {};
   if (bot.antiPrivate && !isOwner && !isROwner) {
-    await m.reply(`_*< ANTI-PRIVADO />*_\n\n*HOLA, SOY CAPIBOT PREMIUM, PARA HABLAR AL PRIVADO SOLO ES POSIBLE CON MI CREADOR, SI QUIERES ALQUILARME ENTRA AL SIGUIENTE GRUPO* https://chat.whatsapp.com/FXhHi3CURVdAhqXFKp64vT`, false, {mentions: [m.sender]});
+    await m.reply(`_*< ANTI-PRIVADO />*_\n\n*Que onda soy Bugs Bunny Bot esta prohibido hablar al privado del bot asi que no estes chingando si quieres comprar o probar el bot solo entra al grupo https://chat.whatsapp.com/L0pLoI1DRRz58NV2mS6bop`, false, {mentions: [m.sender]});
     await this.updateBlockStatus(m.chat, 'block');
   }
   return !1;
