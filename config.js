@@ -11,26 +11,28 @@ global.botnumber = ""
 global.confirmCode = ""
 
 global.owner = [
-  ['5215625060788', '👑 CapiPremium - Creador 👑', true],
+  ['5217299350963', '👑 Bugs Bunny - Creador 👑', true],
 ];
 
-global.suittag = ['5215625060788'];
-global.prems = ['5215625060788'];
+global.suittag = ['5217299350963'];
+global.prems = ['5217299350963'];
 
-global.packname = 'Anthony Ventas';
-global.author = 'Capibot Premium';
-global.wm = 'Capibot Premium';
-global.titulowm = 'CapiBot Premium';
-global.titulowm2 = `Capibot Premium`
-global.igfg = 'Capibot Premium';
+global.packname = 'Bugs Bunny';
+global.author = 'Bugs Bunny';
+global.wm = 'Bugs Bunny';
+global.titulowm = 'Bugs Bunny';
+global.titulowm2 = `Bugs Bunny`
+global.igfg = 'Bugs Bunny';
 global.wait = '*[ ⏳ ] Cargando...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
-global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
-global.imagen3 = fs.readFileSync('./src/Pre Bot Publi.png');
+global.imagen2 = fs.readFileSync('./src/bermudavs.png');
+global.imagen3 = fs.readFileSync('./src/Purgatoriovs.png');
 global.imagen4 = fs.readFileSync('./Menu.png');
-global.imagen5 = fs.readFileSync('./src/+18.jpg');
+global.imagen5 = fs.readFileSync('./src/kalaharivs.png');
 global.imagen6 = fs.readFileSync('./Menu3.png');
+global.imagen7 = fs.readFileSync('./src/Cuadrilateros.png');
+global.imagen8 = fs.readFileSync('./src/hexagonals.png');
 
 global.mods = [];
 
@@ -46,12 +48,12 @@ global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', s
 global.wm2 = `${dia} ${fecha}\nCapibot Premium`;
 global.gt = 'Capibot Premium';
 global.mysticbot = 'CapiBot Premium';
-global.md = 'wa.me/5215625060788';
-global.mysticbot = 'wa.me/5215625060788';
+global.md = 'wa.me/5217299350963';
+global.mysticbot = 'wa.me/5217299350963';
 global.waitt = '*[ ⏳ ] Cargando...*';
 global.waittt = '*[ ⏳ ] Cargando...*';
 global.waitttt = '*[ ⏳ ] Cargando...*';
-global.nomorown = '5215625060788';
+global.nomorown = '5217299350963';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
