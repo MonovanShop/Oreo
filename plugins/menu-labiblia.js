@@ -1,8 +1,8 @@
 import fetch from 'node-fetch';
 const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems}) => {
-if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*[â] Los comandos +18 estÃ¡n desactivados en este grupo, si es admin y desea activarlos use ${usedPrefix}enable modohorny*`; 
+if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*[❗] Los comandos +18 están desactivados en este grupo, si es admin y desea activarlos use ${usedPrefix}enable modohorny*`; 
   try {
-    const pp = imagen9;
+    const pp = imagen5;
     const vn = './media/La biblia.mp3';
     const d = new Date(new Date + 3600000);
     const locale = 'es';
@@ -19,44 +19,44 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*[â] Los comandos
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `ââ _*BUGS BUNNY*_ ââ
+    const str = `◉— _*BUGS BUNNY*_ —◉
 
- ð°ð¥  *Hola,* ${taguser}
+ 🐰🥕  *Hola,* ${taguser}
 
-         ââ _*LA BIBLIA*_ ââ
+         ◉— _*LA BIBLIA*_ —◉
 
-ð°ð¥ _${usedPrefix}pack_
-ð°ð¥ _${usedPrefix}pack2_
-ð°ð¥ _${usedPrefix}pack3_
-ð°ð¥ _${usedPrefix}videoxxx_
-ð°ð¥ _${usedPrefix}videolesbixxx_
-ð°ð¥ _${usedPrefix}tetas_
-ð°ð¥ _${usedPrefix}booty_
-ð°ð¥ _${usedPrefix}ecchi_
-ð°ð¥ _${usedPrefix}furro_
-ð°ð¥ _${usedPrefix}imagenlesbians_
-ð°ð¥ _${usedPrefix}panties_
-ð°ð¥ _${usedPrefix}pene_
-ð°ð¥ _${usedPrefix}porno_
-ð°ð¥ _${usedPrefix}randomxxx_
-ð°ð¥ _${usedPrefix}pechos_
-ð°ð¥ _${usedPrefix}yaoi_
-ð°ð¥ _${usedPrefix}yaoi2_
-ð°ð¥ _${usedPrefix}yuri_
-ð°ð¥ _${usedPrefix}yuri2_
-ð°ð¥ _${usedPrefix}trapito_
-ð°ð¥ _${usedPrefix}hentai_
-ð°ð¥ _${usedPrefix}nsfwloli_
-ð°ð¥ _${usedPrefix}nsfworgy_
-ð°ð¥ _${usedPrefix}nsfwfoot_
-ð°ð¥ _${usedPrefix}nsfwass_
-ð°ð¥ _${usedPrefix}nsfwbdsm_
-ð°ð¥ _${usedPrefix}nsfwcum_
-ð°ð¥ _${usedPrefix}nsfwero_
-ð°ð¥ _${usedPrefix}nsfwfemdom_
-ð°ð¥ _${usedPrefix}nsfwglass_
-ð°ð¥ _${usedPrefix}hentaipdf *<texto>*_
-ð°ð¥ _${usedPrefix}hentaisearch *<texto>*_`.trim();
+🐰🥕 _${usedPrefix}pack_
+🐰🥕 _${usedPrefix}pack2_
+🐰🥕 _${usedPrefix}pack3_
+🐰🥕 _${usedPrefix}videoxxx_
+🐰🥕 _${usedPrefix}videolesbixxx_
+🐰🥕 _${usedPrefix}tetas_
+🐰🥕 _${usedPrefix}booty_
+🐰🥕 _${usedPrefix}ecchi_
+🐰🥕 _${usedPrefix}furro_
+🐰🥕 _${usedPrefix}imagenlesbians_
+🐰🥕 _${usedPrefix}panties_
+🐰🥕 _${usedPrefix}pene_
+🐰🥕 _${usedPrefix}porno_
+🐰🥕 _${usedPrefix}randomxxx_
+🐰🥕 _${usedPrefix}pechos_
+🐰🥕 _${usedPrefix}yaoi_
+🐰🥕 _${usedPrefix}yaoi2_
+🐰🥕 _${usedPrefix}yuri_
+🐰🥕 _${usedPrefix}yuri2_
+🐰🥕 _${usedPrefix}trapito_
+🐰🥕 _${usedPrefix}hentai_
+🐰🥕 _${usedPrefix}nsfwloli_
+🐰🥕 _${usedPrefix}nsfworgy_
+🐰🥕 _${usedPrefix}nsfwfoot_
+🐰🥕 _${usedPrefix}nsfwass_
+🐰🥕 _${usedPrefix}nsfwbdsm_
+🐰🥕 _${usedPrefix}nsfwcum_
+🐰🥕 _${usedPrefix}nsfwero_
+🐰🥕 _${usedPrefix}nsfwfemdom_
+🐰🥕 _${usedPrefix}nsfwglass_
+🐰🥕 _${usedPrefix}hentaipdf *<texto>*_
+🐰🥕 _${usedPrefix}hentaisearch *<texto>*_`.trim();
     if (m.isGroup) {
       await conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: m});
       await conn.sendFile(m.chat, vn, 'La biblia.mp3', null, m, true, {type: 'audioMessage', ptt: true});
@@ -66,7 +66,7 @@ if (!db.data.chats[m.chat].modohorny && m.isGroup) throw `*[â] Los comandos
       await conn.sendFile(m.chat, vn, 'La biblia.mp3', null, m, true, {type: 'audioMessage', ptt: true});
     }
   } catch {
-    conn.reply(m.chat, '*[âððððâ] ð´ð» ð¼ð´ð½ð ðð¸ð´ð½ð´ ðð½ ð´ððð¾ð ð ð½ð¾ ðµðð´ ð¿ð¾ðð¸ð±ð»ð´ ð´ð½ðð¸ð°ðð»ð¾, ðð´ð¿ð¾ððð´ð»ð¾ ð°ð» ð¿ðð¾ð¿ð¸ð´ðð°ðð¸ð¾ ð³ð´ð» ð±ð¾ð*', m);
+    conn.reply(m.chat, '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝙼𝙴𝙽𝚄 𝚃𝙸𝙴𝙽𝙴 𝚄𝙽 𝙴𝚁𝚁𝙾𝚁 𝚈 𝙽𝙾 𝙵𝚄𝙴 𝙿𝙾𝚂𝙸𝙱𝙻𝙴 𝙴𝙽𝚅𝙸𝙰𝚁𝙻𝙾, 𝚁𝙴𝙿𝙾𝚁𝚃𝙴𝙻𝙾 𝙰𝙻 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃*', m);
   }
 };
 handler.command = /^(menulabiblia|labiblia|Labiblia)$/i;
