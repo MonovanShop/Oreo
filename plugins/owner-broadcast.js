@@ -67,7 +67,7 @@ let teks = text ? text : cc.text
 for (let id of chatsall) { conn.sendButton(id, `*╔══❰ 𝐂𝐎𝐌𝐔𝐍𝐈𝐂𝐀𝐃𝐎 ❱══╗*\n*║*\n*╠❧* ${text}\n*║*\n*╚══════════════╝*`, '𝙀𝙎𝙏𝙀 𝙀𝙎 𝙐𝙉 𝘾𝙊𝙈𝙐𝙉𝙄𝘾𝘼𝘿𝙊 𝙊𝙁𝙄𝘾𝙄𝘼𝙇\n' + wm, fs.readFileSync('./src/avatar_contact.png'), [['🤖 𝙾𝚆𝙽𝙴𝚁 🤖', '.owner'],['💎 𝙳𝙾𝙽𝙰𝚁 💎', '.donasi']], false, {
 contextInfo: { externalAdReply: {
 title: 'Cᴏᴍᴜɴɪᴄᴀᴅᴏ Oғɪᴄɪᴀʟ ᴀ Tᴏᴅᴏs Lᴏs Cʜᴀᴛs',
-body: 'BY ANTHONY VENTAS',
+body: 'Bugs-Bunny',
 sourceUrl: `https://chat.whatsapp.com/IkmoGgRSDi46dOTiH1EF74`,
 thumbnail: fs.readFileSync('./Menu2.jpg') }}})}
 }
