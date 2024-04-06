@@ -11,19 +11,19 @@ global.botnumber = ""
 global.confirmCode = ""
 
 global.owner = [
-  ['5217299350963', 'ð Bugs Bunny - Creador ð', true],
+  ['5217299350963', '👑 BugsBunny - Creador 👑', true],
 ];
 
 global.suittag = ['5217299350963'];
 global.prems = ['5217299350963'];
 
-global.packname = 'Bugs Bunny';
+global.packname = 'Monovan';
 global.author = 'Bugs Bunny';
 global.wm = 'Bugs Bunny';
 global.titulowm = 'Bugs Bunny';
 global.titulowm2 = `Bugs Bunny`
 global.igfg = 'Bugs Bunny';
-global.wait = '*[ â³ ] Cargando...*';
+global.wait = '*[ ⏳ ] Cargando...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/bermudavs.png');
@@ -43,34 +43,34 @@ global.locale = 'es';
 global.dia = d.toLocaleDateString(locale, {weekday: 'long'});
 global.fecha = d.toLocaleDateString('es', {day: 'numeric', month: 'numeric', year: 'numeric'});
 global.mes = d.toLocaleDateString('es', {month: 'long'});
-global.aÃ±o = d.toLocaleDateString('es', {year: 'numeric'});
+global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nBugs Bunny`;
+global.wm2 = `${dia} ${fecha}\nCapibot Premium`;
 global.gt = 'Bugs Bunny';
 global.mysticbot = 'Bugs Bunny';
 global.md = 'wa.me/5217299350963';
 global.mysticbot = 'wa.me/5217299350963';
-global.waitt = '*[ â³ ] Cargando...*';
-global.waittt = '*[ â³ ] Cargando...*';
-global.waitttt = '*[ â³ ] Cargando...*';
+global.waitt = '*[ ⏳ ] Cargando...*';
+global.waittt = '*[ ⏳ ] Cargando...*';
+global.waitttt = '*[ ⏳ ] Cargando...*';
 global.nomorown = '5217299350963';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
-global.cmenut = 'âââââââã';
-global.cmenub = 'ââ¦ ';
-global.cmenuf = 'â°âââââââââââà¹\n';
-global.cmenua = '\nâ ââââââââââââââââââââââââââââââââ â\n     ';
-global.dmenut = '*âââââââ©*';
-global.dmenub = '*âÂ»*';
-global.dmenub2 = '*â*';
-global.dmenuf = '*â°âââââââââââ¦*';
-global.htjava = 'â«¹â«º';
-global.htki = '*â­â¢Ì©Ì©Íâ±â¢â¢â¢â¢ âª*';
-global.htka = '*âª â¢â¢â¢â¢Ì©Ì©Íâ°â¢â­*';
-global.comienzo = 'â¢ â¢ ââââââ';
-global.fin = 'ââââââ â¢ â¢';
-global.botdate = `*[ ð ] Fecha:*  ${moment.tz('America/Mexico_City').format('DD/MM/YY')}`;
-global.bottime = `*[ â³ ] Hora:* ${moment.tz('America/Mexico_City').format('HH:mm:ss')}`;
+global.cmenut = '❖––––––『';
+global.cmenub = '┊✦ ';
+global.cmenuf = '╰━═┅═━––––––๑\n';
+global.cmenua = '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n     ';
+global.dmenut = '*❖─┅──┅〈*';
+global.dmenub = '*┊»*';
+global.dmenub2 = '*┊*';
+global.dmenuf = '*╰┅────────┅✦*';
+global.htjava = '⫹⫺';
+global.htki = '*⭑•̩̩͙⊱•••• ☪*';
+global.htka = '*☪ ••••̩̩͙⊰•⭑*';
+global.comienzo = '• • ◕◕════';
+global.fin = '════◕◕ • •';
+global.botdate = `*[ 📅 ] Fecha:*  ${moment.tz('America/Mexico_City').format('DD/MM/YY')}`;
+global.bottime = `*[ ⏳ ] Hora:* ${moment.tz('America/Mexico_City').format('HH:mm:ss')}`;
 global.fgif = {key: {participant: '0@s.whatsapp.net'}, message: {'videoMessage': {'title': wm, 'h': `Hmm`, 'seconds': '999999999', 'gifPlayback': 'true', 'caption': bottime, 'jpegThumbnail': fs.readFileSync('./Menu.png')}}};
 global.multiplier = 99;
 global.flaaa = [
