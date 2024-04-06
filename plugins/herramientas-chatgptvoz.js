@@ -3,8 +3,8 @@
 /*                                                       */
 /*       |- [ ⚠ ] - CREDITOS DEL CODIGO - [ ⚠ ] -|      */
 /*     —◉ DESAROLLADO POR:                               */
-/*     ◉ Creador Anthony Ventas                          */
-/*     ◉ Número: wa.me/525625060788                      */
+/*     ◉ Creador Bugs-Bunny                              */
+/*     ◉ Número: wa.me/527299350963                      */
 /*                                                        */
 /*                                                        */
 /*                                                        */
