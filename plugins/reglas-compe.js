@@ -72,7 +72,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     conn.reply(m.chat, '*[ â¹ï¸ ] Este menu tiene un error interno, por lo cual no fue posible enviarlo.*', m);
   }
 };
-handler.command = /^(Clk|CLK|clk|REGLAS|Reglas||reglas|REGLASCLK|ReglasCLK|reglasCLK|Reglasclk|ReglasCompe|reglascompe|REGLASCOMPE|COMPE|compe|Compe)$/i;
+handler.command = /^(Clk|CLK|clk|REGLAS|Reglas|reglas|REGLASCLK|ReglasCLK|reglasCLK|Reglasclk|ReglasCompe|reglascompe|REGLASCOMPE|COMPE|compe|Compe)$/i;
 handler.exp = 50;
 handler.fail = null;
 export default handler;
