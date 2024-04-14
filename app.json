@@ -1,10 +1,10 @@
 {
-  "name": "Bugs Bunny",
-  "website": "wa.me/527299350963",
-  "description": "Subscribete a Bugs Bunnu - Bot (≧▽≦)",
-  "repository": "wa.me/525625060788",
+  "name": "OREO BOT",
+  "website": "wa.me/525610035034",
+  "description": "Subscribete a OREO BOT (≧▽≦)",
+  "repository": "wa.me/525610035034",
   "logo": "https://raw.githubusercontent.com/BrunoSobrino/TheMystic-Bot-MD/master/src/pictures/heroku-icon.jpg",
-  "success_url": "wa.me/527299350963",
+  "success_url": "wa.me/525610035034",
   "keywords": [
     "nodejs",
     "heroku",
@@ -20,9 +20,9 @@
     "whatsappbot",
     "oficial",
     "whatsapp-md",
-    "Bugs Bunny",
-    "Bugs Bunny",
-    "Bugs Bunny"],
+    "OREO BOT",
+    "OREO BOT",
+    "OREO BOT"],
   "image": "heroku/nodejs",
   "buildpacks": [
     {
