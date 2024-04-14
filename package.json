@@ -1,7 +1,7 @@
 {
-  "name": "Bugs Bunny",
+  "name": "OREO",
   "version": "1.0.0",
-  "description": "Usa Bugs Bunny",
+  "description": "Usa OREO",
   "main": "index.js",
   "type": "module",
   "directories": {
@@ -18,16 +18,16 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/MonovanShop/Bugs-Bunny.git",
+  "homepage": "https://github.com/MonovanShop/Oreo.git",
   "author": {
     "name": "BrunoSobrino"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MonovanShop/Bugs-Bunny.git"
+    "url": "https://github.com/MonovanShop/Oreo.git"
   },
   "bugs": {
-    "url": "https://github.com/MonovanShop/Bugs-Bunny.git/issues"
+    "url": "https://github.com/MonovanShop/Oreo.git/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
