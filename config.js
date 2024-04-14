@@ -13,6 +13,7 @@ global.confirmCode = ""
 global.owner = [
   ['5217299350963', '👑 BugsBunny - Creador 👑', true],
   ['5215610035034', '👑 Dafne  - Creador 👑', true],
+   ['5215525364297', '👑 Dafne  - Creador 👑', true],
 ];
 
 global.suittag = ['5215610035034'];
